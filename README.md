@@ -7,7 +7,7 @@ This application uses sockets to connect to the clients and the port can be deci
 
 This application uses the **_camera2 api_**.
 
-[**app-release.apk**](https://github.com/krishnayeswanth99/try/app/release/) has keystore and can be installed on the mobile.
+[**app-release.apk**](https://github.com/krishnayeswanth99/try/blob/master/app/release/app-release.apk) has keystore and can be installed on the mobile.
 
 # cli
 The client side app can be found [here](https://github.com/krishnayeswanth99/cli)
