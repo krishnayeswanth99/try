@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/start_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:onClick="onClick"
+        android:text="Start Server" />
+    <TextView
+        android:id="@+id/disp_ip"
+        android:layout_below="@id/start_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/port"
+        android:inputType="number"
+        android:layout_below="@id/disp_ip"
+        android:ems="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextureView
+        android:id="@+id/texture"
+        android:layout_below="@id/port"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>
