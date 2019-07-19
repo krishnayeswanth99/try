@@ -11,3 +11,5 @@ This application uses the **_camera2 api_**.
 
 # cli
 The client side app can be found [here](https://github.com/krishnayeswanth99/cli)
+
+It can even be used when not in remote network if firewalls are configured
